@@ -16,7 +16,7 @@ class Character:
 
     def make_damage(self):
         return self.damage
-
+    # creating the attack
     def take_damage(self,damage):
         self.life_points -= damage
         if self.life_points <= 0:
